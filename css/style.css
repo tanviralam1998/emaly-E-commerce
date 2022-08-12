@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Nunito+Sans:wght@400;600;700;900&display=swap');
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    color: #181818;
+    font-size: 1rem;
+}
+
+img{
+    max-width: 100%;
+}
+.text-orange{
+    color: orange;
+}
+a{
+    text-decoration: none;
+    color: rgb(233, 93, 93);
+}
+.text-white{
+    color: #b7b9ba !important;
+    font-size: 12px !important;
+}
+/* h1,h2,h3,h4,h5,h6{
+    font-family: 'Handlee', cursive;
+} */
+.form-select{
+    border: none;
+    border-radius: none;
+}
+.w-25 {
+    width: 15%!important;
+}
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(0,0,0,.9);
+}
+legend {
+    float: none !important;
+    width: auto !important;
+    padding: 0 20px;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    line-height: inherit;
+}
+fieldset {
+    min-width: 100%;
+    padding: 40px;
+    border: 2px solid #ddd;
+    display: inline-block;
+    
+
+}
+.border-top {
+    border-top: 1px solid #b7b9ba!important;
+}
+
+
+.footer-description p{
+    font-size: 12px;
+    line-height: 1rem;
+}
+.footer-info p{
+    font-size: 12px;
+    line-height: 1rem;
+}
+
+.top-0 {
+    top: 0!important;
+    right: 8px;
+    font-size: 25px;
+    margin: 5px 5px;
+    color: tomato;
+}

@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Handlee&family=Nunito+Sans:wght@400;600;700;900&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: 'Nunito Sans', sans-serif;
     color: #181818;
@@ -20,7 +24,8 @@ a{
     color: #b7b9ba !important;
     font-size: 12px !important;
 }
-/* h1,h2,h3,h4,h5,h6{
+
+/* h3{
     font-family: 'Handlee', cursive;
 } */
 .form-select{
@@ -70,3 +75,94 @@ fieldset {
     margin: 5px 5px;
     color: tomato;
 }
+
+/* ============== home page css ==========================*/
+
+/* hero section */
+/* #hero{
+    height: 650px;
+    background-image: url(../img/homePage/Backg-one.png);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: 100% 100%;
+}
+.right-content {
+    margin-left: 180px;
+}
+
+.carousel-inner{
+    height: 650px;
+    background-image: url(../img/homePage/Backg-one.png);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: 100% 100%;
+} */
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+.carousel-caption{
+    bottom: 40%;
+    text-align: start !important;
+    left: 40%;
+
+}
+@media only screen and (max-width: 768px)  {
+    .carousel-caption {
+        bottom: 18%;
+    }
+    .display-4 {
+        font-size: 22px;
+    }
+    .display-5{
+        font-size: 16px;
+    }
+    .py-4{
+        padding: 10px 0 !important;
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 480px)  {
+    .d-none{
+        display: inline-block !important;
+    }
+    .carousel-caption {
+        bottom: 42%;
+    }
+    .display-4 {
+        font-size: 12px;
+    }
+    .display-5{
+        font-size: 12px;
+    }
+    .py-4{
+        padding: 5px 0 !important;
+        font-size: 12px;
+    }
+}
+
+/* @media (max-width: 768px){
+    .carousel-caption {
+        bottom: 40%;
+    }
+    .display-4 {
+        font-size: 40px;
+    }
+    .display- {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 480px){
+    .carousel-caption {
+        bottom: 50%;
+    }
+    .display-4 {
+        font-size: 12px;
+    }
+    .display-5{
+        font-size: 12px;
+    }
+} */
+
+

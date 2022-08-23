@@ -13,17 +13,22 @@ $(document).ready(function(){
         responsive:{
             0:{
                 items:1,
-                nav:true
-            },
-            600:{
-                items:3,
                 nav:false
             },
-            1000:{
-                items:4,
+            768:{
+                items:2,
+                nav:false
+            },
+            991:{
+                items:3,
                 nav:true,
                 loop:false
-            }
+            },
+            // 991:{
+            //     items:4,
+            //     nav:true,
+            //     loop:false
+            // }
         }
     
     })
